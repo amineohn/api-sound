@@ -1,8 +1,8 @@
 import dotenv from 'dotenv'
 
-import './unhandled-error-handling'
-import logger from './log'
-import envVar from './env'
+import './utils/unhandled-error-handling'
+import logger from './utils/log'
+import envVar from './utils/env'
 
 dotenv.config()
 

@@ -7,7 +7,7 @@ const { nodeExternalsPlugin } = require('esbuild-node-externals')
 const plugins = devMode ? [nodeExternalsPlugin()] : []
 
 build({
-  entryPoints: ['./src/index.ts'],
+  entryPoints: ['./src/main.ts'],
   outfile: '.build/index.js',
   bundle: true,
   minify: true,
